@@ -14,7 +14,7 @@
               <label>Nombre</label>
               <input type="text" id="nombre" name="nombre" class="form-control form-control-sm" required="">
               <label>Archivo</label>
-              <input type="file" id="url" name="url" class="form-control-file" required="">              
+              <input type="file" id="nombrearchivo" name="nombrearchivo" class="form-control-file" required="">              
               <br>
                <input type="submit" value="Guardar" class="btn btn-primary">
           </form>

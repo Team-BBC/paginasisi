@@ -24,11 +24,6 @@ SET time_zone = "+00:00";
 CREATE DATABASE IF NOT EXISTS `pdof` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_spanish_ci;
 USE `pdof`;
 
--- --------------------------------------------------------
-
---
--- Estructura de tabla para la tabla `t_crud`
---
 
 DROP TABLE IF EXISTS `t_crud`;
 CREATE TABLE IF NOT EXISTS `t_crud` (
@@ -41,6 +36,3 @@ CREATE TABLE IF NOT EXISTS `t_crud` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_spanish_ci;
 COMMIT;
 
-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
-/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
-/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
