@@ -19,7 +19,7 @@ require_once "Conexion.php";
 		public function insertarDatos($datos){
 			
 			$archivorecibido = $_FILES["nombrearchivo"]["tmp_name"];
-			$destino = "documentos/$datos["nombre"]";
+			$destino = "documentos/".$datos['nombre'];
 
 			$sql = "SELECT COUNT(sustancia) AS num FROM  document WHERE sustancia = :sustancia";	
 			$stm = $db -> prepare($sql);
